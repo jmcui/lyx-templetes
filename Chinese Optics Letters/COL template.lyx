@@ -1,0 +1,1195 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+% Created by jmcui at 2019.04.15
+
+%\usepackage{fontspec}
+%\setromanfont{AR PL ShanHeiSun Uni}%字体来自Adobe Reader 8.0 OpenType，可以选用任何系统已有的字体
+%中文断行 
+%\XeTeXlinebreaklocale "zh"
+%\XeTeXlinebreakskip = 0pt plus 1pt 
+\usepackage{ifxetex}
+\ifxetex
+\usepackage{xeCJK}
+\fi
+
+\newcommand{\allmodesymb}[2]{\relax\ifmmode{\mathchoice
+{\mbox{\fontsize{\tf@size}{\tf@size}#1{#2}}}
+{\mbox{\fontsize{\tf@size}{\tf@size}#1{#2}}}
+{\mbox{\fontsize{\sf@size}{\sf@size}#1{#2}}}
+{\mbox{\fontsize{\ssf@size}{\ssf@size}#1{#2}}}} \else
+\mbox{#1{#2}}\fi} 
+
+\usepackage{amsfonts}
+\usepackage{tipa}
+\setlength{\textwidth}{18cm} 
+\setlength{\textheight}{24.5cm}
+\setlength{\oddsidemargin}{-1.04cm}
+\setlength{\evensidemargin}{-1.04cm} 
+\setlength{\topmargin}{-0.5cm}
+\setlength{\topskip}{-0.69cm} 
+\setlength{\columnsep}{0.7cm}
+
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage{graphics}
+\usepackage{bm}
+\usepackage[superscript,biblabel]{cite}
+%\usepackage{cite}
+
+\renewcommand{\headrulewidth}{0.015cm}
+\renewcommand{\footrulewidth}{0cm}
+
+\lhead{\small{COL \textbf{12}(0), 000000(2019)}}
+\chead{\small{CHINESE OPTICS LETTERS}}
+\rhead{\small{ 10, 2019}}
+\setcounter{page}{1}
+
+\renewcommand{\thepage}{000000-\arabic{page}}
+
+\renewcommand{\figurename}{Fig.}
+
+% set reference format
+%\renewcommand\bibname{\bf References}
+\renewcommand\refname{\normalsize\bf References}
+
+\renewcommand{\@citess}[1]{\textsuperscript{\,[#1]}}
+\renewcommand\@bibitem[1]{\item\if@filesw \immediate\write\@auxout
+   {\string\bibcite{#1}{\theenumiv}}\fi\ignorespaces}
+     %% to replace "\the\value{\@listctr}" with "\theenumiv"
+\renewcommand\@biblabel[1]{#1.}
+
+\let\OLDthebibliography\thebibliography
+\renewcommand\thebibliography[1]{
+  \OLDthebibliography{#1}
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{0pt plus 0.3ex}
+  \footnotesize  % bibfontsize
+}
+
+%\def\RE{\par\vskip.25in\par\noindent{\normalsize\bf References}\par\vskip.15in\par}
+%\def\REF#1{\par\hangindent\parindent\indent\llap{#1\enspace}\ignorespaces}
+
+\catcode`@=12
+\thispagestyle{fancy}
+\lfoot{\small{1671-7694/2014/000000(4)}}
+\cfoot{\small{\thepage}}
+\rfoot{{\small{\copyright} 2019 Chinese Optics Letters}}
+\end_preamble
+\options cjk
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package default
+\inputencoding utf8-cjk
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\font_cjk gbsn
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format pdf2
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement th
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\pdf_subject "LyX-documentation Tutorial"
+\pdf_keywords "LyX, documentation"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle false
+\pdf_quoted_options "linkcolor=black, citecolor=black, urlcolor=blue, filecolor=blue,pdfpagelayout=OneColumn, pdfnewwindow=true,pdfstartview=XYZ, plainpages=false"
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index 索引
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 2
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+twocolumn[{
+\backslash
+renewcommand{
+\backslash
+baselinestretch}{0.9}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+Thermal expanded core ultraviolet fiber for optical cavity mode matching
+\begin_inset Newline newline
+\end_inset
+
+
+\series default
+\size default
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+parskip=0.5cm
+\backslash
+renewcommand{
+\backslash
+baselinestretch}{1.2}
+\end_layout
+
+\end_inset
+
+
+\series bold
+author 1
+\series default
+ (作者1)
+\begin_inset Formula $^{1,2}$
+\end_inset
+
+, 
+\series bold
+author2 
+\series default
+(作者2)
+\begin_inset Formula $^{1,2,*}$
+\end_inset
+
+, 
+\series bold
+author3 
+\series default
+(作者3)
+\begin_inset Formula $^{1,2}$
+\end_inset
+
+, 
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+author4 
+\series default
+(作者4)
+\begin_inset Formula $^{1,2}$
+\end_inset
+
+,
+\series bold
+ and author5
+\series default
+ (作者5)
+\begin_inset Formula $^{1,2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+parskip=0.65cm
+\end_layout
+
+\end_inset
+
+
+\series bold
+ 
+\series default
+\shape slanted
+\size small
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $^{1}$
+\end_inset
+
+CAS Key Laboratory of Quantum Information, University of Science and Technology
+ of China, Hefei, 230026, China
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $^{2}$
+\end_inset
+
+CAS Center For Excellence in Quantum Information and Quantum Physics, University
+ of Science and Technology of China, Hefei, 230026, China
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset Formula $^{*}$
+\end_inset
+
+Corresponding author:xxxx@ustc.edu.cn
+\begin_inset Newline newline
+\end_inset
+
+ 
+\shape default
+Received ..; accepted ...; posted ..
+\size default
+.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+vskip 0.05cm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+parskip=-0.6cm
+\backslash
+renewcommand{
+\backslash
+baselinestretch}{0.92}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+$$
+\backslash
+begin{minipage}[t]{15cm}
+\backslash
+normalsize
+\backslash
+noindent
+\backslash
+small 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+We have demonstrated a mode matching method between two different fibers
+ by a hybrid thermal expanded core (TEC) technique, which can be applied
+ to match the modes of fiber-based Fabry-P
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+'e
+\end_layout
+
+\end_inset
+
+rot cavities (FFPCs).
+ Experimentally, this method has achieved an expansion of the ultraviolet
+ fiber core by 3.5 times while keeping fundamental mode propagation.
+ With the experiment parameters, the fundamental mode coupling efficiency
+ between the fiber and micro-cavity can reach 95% for a plano-concave cavity
+ with a length of 400 
+\begin_inset Formula $\mu$
+\end_inset
+
+m.
+ This method can not only have potential in quantum photonics research,
+ but also can be applied in classical optical fields.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+mbox{} 
+\backslash
+hspace{0.3cm}
+\backslash
+sl OCIS codes: 
+\backslash
+rm 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+OCIS codes
+\end_layout
+
+\end_inset
+
+060.2310, 120.2230, 140.3948, 020.5580
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+mbox{} 
+\backslash
+hspace{0.3cm}
+\backslash
+sl doi: 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+doi:
+\end_layout
+
+\end_inset
+
+..................
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace 0.5mm
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}$$
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+normalsize
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+parindent=0.3cm
+\end_layout
+
+\end_inset
+
+FFPCs are widely used in many applications 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "ballance2017cavity,kassa2018precise"
+literal "true"
+
+\end_inset
+
+ in advantage of it's high finesse and small volume in recent years.
+ However, mode matching between the cavity mode and input/output fibers
+ modes has been the main hindrance for many applications.
+ Especially in research fields with trapped ions, due to the strong disturbance
+ of the trapping electric potential by the presence of the dielectric fibers,
+ trapping of ions in the close vicinity of a fiber mirror is challenging.
+ Hence, relatively long cavity lengths are desirable, however, a long cavity
+ length leads to a large cavity mode.
+ On the other hand, the trapped ions radiate fluorescence in the ultraviolet
+ range, to enchane the fluorescence of trapped ions with a FFPC, ultraviolet
+ fibers with small fiber core are used to fabricate the FFPC.
+ As a result, the mode mismatching between fibers and cavities will decrease
+ the coupling efficiency.
+ In order to improve it, large mode single mode fibers are in great essential.
+ Many efforts have been done such as the application of photonic crystal
+ fiber 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "popplau2017millimeter,villatoro2009photonic"
+literal "true"
+
+\end_inset
+
+, the splicing of different types fibers for a fiber assembly 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "gulati2017fiber"
+literal "true"
+
+\end_inset
+
+.
+ These methods use special fibers which are extremely fragile and sensitive
+ to external environment, or need extremely strict operation skills with
+ low reproducible ability.
+\end_layout
+
+\begin_layout Standard
+In this letter, we demonstrate ......
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+One column figure
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename E:/Work/2019/Manuscripts/TECfiber/Submission/COL/Reply1/Fig1.pdf
+	lyxscale 80
+	width 95col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:RI_distribution"
+
+\end_inset
+
+Simulation of refractive index distribution versus radial distance from
+ fiber core with different thermal expanding time.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+two column figure
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename E:/Work/2019/Manuscripts/TECfiber/Submission/COL/Reply1/Fig5.pdf
+	width 85text%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig: double-concave"
+
+\end_inset
+
+(a) Mode matching efficiency between fiber and cavity mode for symmetric
+ concave cavity.
+ The blue line shows the initial SM300 fiber for the FFPC, the coupling
+ efficiency is about 30% at the cavity length of 50 
+\begin_inset Formula $\mu$
+\end_inset
+
+m.
+ The green line is the result after TEC treating, efficiency can achieve
+ 75% when the cavity length is 300 
+\begin_inset Formula $\mu$
+\end_inset
+
+m.
+ (b) Mode matching between fiber and cavity mode for plano-concave cavity.
+ Considering the flat end coupling with the cavity mode, as the dotted line
+ shown, the initial fiber can form stable cavity with coupling efficiency
+ aroud 20%; when the MFD comes to 
+\begin_inset Formula $7.7$
+\end_inset
+
+ 
+\begin_inset Formula $\mu$
+\end_inset
+
+m, the coupling efficiency can be always above 90% as the solid line shown.
+ The purple line shows that the coupling efficiency can be more than 95%
+ with long cavity length around 400 
+\begin_inset Formula $\mu$
+\end_inset
+
+m.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We acknowledge ......
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "ballance2017cavity"
+literal "false"
+
+\end_inset
+
+ T.
+\begin_inset space ~
+\end_inset
+
+Ballance, H.
+\begin_inset space ~
+\end_inset
+
+Meyer, P.
+\begin_inset space ~
+\end_inset
+
+Kobel, K.
+\begin_inset space ~
+\end_inset
+
+Ott, J.
+\begin_inset space ~
+\end_inset
+
+Reichel, M.
+\begin_inset space ~
+\end_inset
+
+K
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\begin_inset Quotes erd
+\end_inset
+
+o
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+hl, 
+\begin_inset Quotes qld
+\end_inset
+
+Cavity-induced backaction in purcell-enhanced photon emission of a single
+ ion in an ultraviolet fiber cavity
+\begin_inset Quotes qrd
+\end_inset
+
+.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+ Phys.
+ Rev.
+ A
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+/
+\end_layout
+
+\end_inset
+
+
+\shape default
+ 
+\series bold
+95
+\series default
+, 033812 (2017).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "kassa2018precise"
+literal "false"
+
+\end_inset
+
+ E.
+\begin_inset space ~
+\end_inset
+
+Kassa, H.
+\begin_inset space ~
+\end_inset
+
+Takahashi, C.
+\begin_inset space ~
+\end_inset
+
+Christoforou, M.
+\begin_inset space ~
+\end_inset
+
+Keller, 
+\begin_inset Quotes qld
+\end_inset
+
+Precise positioning of an ion in an integrated paul trap-cavity system using
+ radiofrequency signals
+\begin_inset Quotes qld
+\end_inset
+
+.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+ J.
+ Mod.
+ Opt.
+\shape italic
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+/
+\end_layout
+
+\end_inset
+
+
+\shape default
+ 
+\series bold
+65
+\series default
+, 520–528 (2018).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "popplau2017millimeter"
+literal "false"
+
+\end_inset
+
+ T.
+\begin_inset space ~
+\end_inset
+
+Popplau, K.
+\begin_inset space ~
+\end_inset
+
+Ott, S.
+\begin_inset space ~
+\end_inset
+
+Garcia, F.
+\begin_inset space ~
+\end_inset
+
+Ferri, R.
+\begin_inset space ~
+\end_inset
+
+Kohlhaas, K.
+\begin_inset space ~
+\end_inset
+
+Sch
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\begin_inset Quotes erd
+\end_inset
+
+u
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+ppert, R.
+\begin_inset space ~
+\end_inset
+
+Long, J.
+\begin_inset space ~
+\end_inset
+
+Reichel, APS Division of Atomic, Molecular and Optical Physics Meeting Abstracts
+\shape italic
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+/
+\end_layout
+
+\end_inset
+
+
+\shape default
+ (2017).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "villatoro2009photonic"
+literal "false"
+
+\end_inset
+
+ J.
+\begin_inset space ~
+\end_inset
+
+Villatoro, V.
+\begin_inset space ~
+\end_inset
+
+Finazzi, G.
+\begin_inset space ~
+\end_inset
+
+Coviello, V.
+\begin_inset space ~
+\end_inset
+
+Pruneri, 
+\begin_inset Quotes qld
+\end_inset
+
+Photonic-crystal-fiber-enabled micro-fabry–perot interferometer
+\begin_inset Quotes qld
+\end_inset
+
+.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+ Opt.
+ Lett.
+\shape italic
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+/
+\end_layout
+
+\end_inset
+
+
+\shape default
+ 
+\series bold
+34
+\series default
+, 2441–2443 (2009).
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "gulati2017fiber"
+literal "false"
+
+\end_inset
+
+ G.
+\begin_inset space ~
+\end_inset
+
+K.
+ Gulati, H.
+\begin_inset space ~
+\end_inset
+
+Takahashi, N.
+\begin_inset space ~
+\end_inset
+
+Podoliak, P.
+\begin_inset space ~
+\end_inset
+
+Horak, M.
+\begin_inset space ~
+\end_inset
+
+Keller, 
+\begin_inset Quotes qld
+\end_inset
+
+Fiber cavities with integrated mode matching optics
+\begin_inset Quotes qld
+\end_inset
+
+.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+newblock
+\end_layout
+
+\end_inset
+
+ Sci.
+ Rep.
+\shape italic
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+/
+\end_layout
+
+\end_inset
+
+
+\shape default
+ 
+\series bold
+7
+\series default
+, 5556 (2017).
+\end_layout
+
+\end_body
+\end_document
